@@ -527,6 +527,7 @@ padding-right: 16px;
 
 .footer-icon-text {
 letter-spacing: 2%; 
+line-height: 24px;
 } 
 
 
@@ -545,4 +546,9 @@ letter-spacing: 2%;
   width: 40px;
   height: 40px;
   margin-top: 16px;
+}
+
+.footer-icon-link:hover,
+.footer-icon-link:focus {
+  background-color: #31D0AA;
 }
