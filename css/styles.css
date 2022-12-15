@@ -92,6 +92,11 @@ img {
 
 /*header*/
 
+.section {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
 .header-conteiner {
   display: flex;
   justify-content: space-between;
@@ -207,16 +212,16 @@ padding-top: 192px;
 text-align: center;
 background-image: linear-gradient(to right, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
 url(../images/people-office.jpg);
-background-size: cover;
+background-size: auto;
 background-repeat: no-repeat;
 background-position: center;
 } 
  
-
 /* box-shadow */
 
 .hero-btn {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: 0;
 }
 
 .hero-btn:hover, 
@@ -224,7 +229,6 @@ background-position: center;
 box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 background-color: #404BBF;
 }
-
 
 .hero-title {
   font-weight: 600;
@@ -268,7 +272,7 @@ background-color: #404BBF;
 
 .features {
   padding-top: 120px;
-}
+} 
 
 .features-list {
   display: flex;
@@ -334,9 +338,9 @@ background-color: #404BBF;
 }
 
 
-.works-list .works-item {
+/* .works-list .works-item {
   justify-content: 24;
-}
+} */
 
 .works-list {
   display: flex;
@@ -352,6 +356,7 @@ background-color: #404BBF;
 }  
 
 .section-team {
+  padding-top: 120px;
   background: #F4F4FD;
 }
 
@@ -397,7 +402,7 @@ background-color: #404BBF;
   margin-top: 12px;
 }
 
-.social-list-item {
+.social-list-link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -407,29 +412,55 @@ background-color: #404BBF;
   height: 40px;
 }
 
-.social-list-item:hover,
-.social-list-item:focus {
+.social-list-link:hover,
+.social-list-link:focus {
   background-color: #31D0AA;
 }
 
-/* customers */
+    .customer-section .item-title {
+      font-weight: 600;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--title-primary-color); 
+    }
 
 .customers-icon {
   display: flex;
   justify-content: space-between;
   gap: 24px;
-  margin-top: 72px;
+  /* margin-top: 72px; */
 }
 
 .customers-li {
+  width: 168px;
+  height: 88px;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 4px;
-  background-color: #E5E5E5
-  ;
-  width: 168px;
-  height: 88px;
+  border: 1px solid #8E8F99;
+
+}
+.customer-section {
+  padding-top: 120px;
+}
+
+.customers-use {
+  color: grey;
+  border: 1px solid grey;
+}
+
+.customers-use:hover,
+.customers-use:focus {
+  color: violet;
+  border: 1px solid violet;
+}
+
+.customer-svg {
+  fill: currentColor;
 }
 
 /* ======Portfolio======= */
