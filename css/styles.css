@@ -236,7 +236,6 @@ background-color: #404BBF;
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: var(--title-secondary-color);
-  /* background-color: var(--title-primary-color); */
   margin-top: 0;
   width: 492px; 
   text-align: center;
@@ -337,16 +336,9 @@ background-color: #404BBF;
   flex-basis: calc((100% - 48px)/3);
 }
 
-
-/* .works-list .works-item {
-  justify-content: 24;
-} */
-
 .works-list {
   display: flex;
 } 
-
-
 
 
 /* Team section */
