@@ -417,51 +417,55 @@ background-color: #404BBF;
   background-color: #31D0AA;
 }
 
-    .customer-section .item-title {
-      font-weight: 600;
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: var(--title-primary-color); 
-    }
+/* customers */
 
-.customers-icon {
-  display: flex;
-  justify-content: space-between;
-  gap: 24px;
-  /* margin-top: 72px; */
+.customer-section {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
+
+.customerss-icon {
+  display: flex;
+  gap: 24px;  
+} 
 
 .customers-li {
   width: 168px;
   height: 88px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
   border-radius: 4px;
-  border: 1px solid #8E8F99;
-
 }
-.customer-section {
-  padding-top: 120px;
-}
-
+  
 .customers-use {
-  color: grey;
-  border: 1px solid grey;
+  border: 1px solid #8e8f99;
+  height: 100%;
+  width: 100%;
+  fill: #8e8f99;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
 }
 
-.customers-use:hover,
-.customers-use:focus {
-  color: violet;
+ .customer-section .item-title {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--title-primary-color); 
+   }
+
+ .customers-use:hover,
+ .customers-use:focus {
+  color: #4d5ae5;
   border: 1px solid violet;
-}
-
-.customer-svg {
   fill: currentColor;
-}
+ }  
+
 
 /* ======Portfolio======= */
 
@@ -490,6 +494,7 @@ background-color: #404BBF;
 .portfolio-filter-btn:focus {
   background-color: var(--brand-color);
   color: var(--background-primary-color);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 3px 1px rgba(0, 0, 0, 0.1);
 }
 
 .portfolio-filter {
@@ -528,6 +533,7 @@ background-color: #404BBF;
   flex-wrap: wrap;
   row-gap: 48px;
   column-gap: 24px;
+  border: none;
 }
 
 .portfolio-list > .portfolio-item {
