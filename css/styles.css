@@ -454,7 +454,7 @@ background-color: #404BBF;
  .customers-use:hover,
  .customers-use:focus {
   color: #4d5ae5;
-  border: 1px solid violet;
+  border: 1px solid #4D5AE5;
   fill: currentColor;
  }  
 
@@ -588,6 +588,7 @@ padding-right: 16px;
 .footer-icon-text {
 letter-spacing: 2%; 
 line-height: 24px;
+margin-bottom: 16px;
 } 
 
 
@@ -605,7 +606,7 @@ line-height: 24px;
   background-color: rgba(255, 255, 255, 0.1);
   width: 40px;
   height: 40px;
-  margin-top: 16px;
+  /* margin-top: 16px; */
 }
 
 .footer-icon-link:hover,
